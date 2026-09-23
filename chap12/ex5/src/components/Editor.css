@@ -1,0 +1,42 @@
+/* 1. 각 섹션 사이의 하단 간격 */
+.Editor > section {
+  margin-bottom: 40px;
+}
+
+/* 2. 섹션 소제목 스타일 */
+.Editor > section > h4 {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+/* 3. 인풋 및 텍스트에어리어 공통 스타일 */
+.Editor > section > input,
+.Editor > section > textarea {
+  background-color: rgb(236, 236, 236);
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px 20px;
+}
+
+/* 4. 텍스트에어리어 전용 상세 스타일 */
+.Editor > section > textarea {
+  padding: 20px;
+  width: 100%;
+  min-height: 200px;
+  resize: vertical;
+  box-sizing: border-box;
+}
+
+/* 5. 감정 아이템 가로 배치 */
+.Editor .emotion_section .emotion_list_wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 2%;
+}
+
+/* 6. 취소/작성완료 버튼 가로 양끝 정렬 */
+.Editor .button_section {
+  display: flex;
+  justify-content: space-between;
+}
